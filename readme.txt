@@ -6,7 +6,7 @@ Requires at least: 2.0.2
 Tested up to: 2.7
 Stable tag: 1.0
 
-Here is a short description of the plugin.  This should be no more than 150 chars.  No markup here.
+140follow removes NOFOLLOW from author link if the comment has more than 140 characters
 
 == Description ==
 140follow removes NOFOLLOW from author link if the comment has more than 140 characters
