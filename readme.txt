@@ -3,8 +3,8 @@ Contributors: NetReview
 Donate link: http://netreview.de
 Tags: comments, dofollow, nofollow, nofollow free, 140
 Requires at least: 2.0.2
-Tested up to: 2.7
-Stable tag: 1.0
+Tested up to: 2.8.1
+Stable tag: 1.1
 
 140follow removes NOFOLLOW from author link if the comment has more than 140 characters
 

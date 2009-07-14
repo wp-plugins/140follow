@@ -3,7 +3,7 @@
 Plugin Name:  140follow
 Plugin URI:   http://netreview.de/wordpress/wordpress-plugin-140follow-fur-alle/
 Description:  Das Plugin ersetzt rel="external nofollow" durch rel="external" aus dem Autor-Link, wenn das Kommentar mehr als 140 Zeichen besitzt.
-Version:      1.0
+Version:      1.1
 Author:       Daniel B.
 Author URI:   http://netreview.de
 */
@@ -46,6 +46,7 @@ function wp_140follow_make_dofollow($ret) {
     
     if ($chars >= 140) {    
       $ret = preg_replace("/ rel='external nofollow'/"," rel='external'",$ret); 
+      $ret = preg_replace("/ rel=\"external nofollow\"/"," rel='external'",$ret);
     }
   }
   
