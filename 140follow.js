@@ -14,13 +14,13 @@ function countlimit(maxlength,e,placeholder){
   
   if (window.event || e.target && e.target == eval(placeholder)) {
     if (lengthleft < 1) {
-      var kommentinfo = '<b>Geschafft!!</b> Dein Kommentar hat das Zeug zu einem NOFOLLOW-FREE-Kommentar! :)';
+      var kommentinfo = '<strong>Geschafft!!</strong> Dein Kommentar hat das Zeug zu einem NOFOLLOW-FREE-Kommentar! :)';
     }
     else if (lengthleft == 1) {
-      var kommentinfo = 'Es fehlt nur noch <b>'+lengthleft+'</b> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :)';
+      var kommentinfo = 'Es fehlt nur noch <strong>'+lengthleft+'</strong> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :)';
     }
     else {
-      var kommentinfo = 'Es fehlen nur noch <b>'+lengthleft+'</b> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :)';
+      var kommentinfo = 'Es fehlen nur noch <strong>'+lengthleft+'</strong> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :)';
     }
   
     placeholderobj.innerHTML=kommentinfo;
@@ -29,7 +29,7 @@ function countlimit(maxlength,e,placeholder){
 
 
 function displaylimit(theform,thelimit) {
-  var limit_text='<span id="'+theform.toString()+'">Es fehlen nur noch <b>'+thelimit+'</b> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :(</span>';
+  var limit_text='<span id="'+theform.toString()+'">Es fehlen nur noch <strong>'+thelimit+'</strong> Zeichen, bis Dein Kommentar ein richtiger Backlink, ohne NOFOLLOW wird! :(</span>';
 
     document.write(limit_text);
     
